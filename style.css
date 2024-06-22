@@ -1,0 +1,73 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/* Header Styling */
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #005b96;
+}
+
+/* Paragraph Styling */
+p {
+    margin: 10px 0;
+    text-align: justify;
+}
+
+/* Culture Section Styling */
+.culture-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+/* Culture Item Styling */
+.culture-item {
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 10px;
+    text-align: center;
+    width: 30%;
+    margin: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.culture-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.culture-item p {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+/* Media Query for Responsiveness */
+@media (max-width: 768px) {
+    .culture-item {
+        width: 45%;
+    }
+}
+
+@media (max-width: 480px) {
+    .culture-item {
+        width: 100%;
+    }
+}
